@@ -9,7 +9,7 @@ export class HomeComponent implements OnInit {
   pathImages:string ='assets/images/'
   pathCSS:string ='assets/css/'
   pathJS:string ='assets/js/'
-  pathRaiz:string ='assets/'
+  pathRaiz:string ='assets'
 
   constructor() { }
 

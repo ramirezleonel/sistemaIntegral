@@ -1,7 +1,8 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HeaderComponent } from './header/header.component';
 
 
 const routes: Routes = [
@@ -14,7 +15,10 @@ const routes: Routes = [
     path:'inicio',
     component:HomeComponent
   },
-  
+  {
+    path:'header',
+    component:HeaderComponent
+  },
   {
     path:'**',
     component:PageNotFoundComponent
