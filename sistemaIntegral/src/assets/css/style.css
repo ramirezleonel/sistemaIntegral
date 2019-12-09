@@ -23,11 +23,10 @@ body a{
 }
 /*-----start-header----*/
 .bg{
-	background:url(assets/images/baner.jpg) no-repeat 0px 0px;
+	background:url(assets/images/banner.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
-.header{
-}
+
 .logo{
 	float: left;
 	margin-top: 0.6em;
@@ -508,7 +507,6 @@ a.leran-more:hover{
 .about-time-line > li .cbp_tmicon,.cbp_tmicon1,.cbp_tmicon2,.cbp_tmicon3,.cbp_tmicon2,.cbp_tmicon4{
 	width: 170px;
 	height: 170px;
-	speak: none;
 	font-size: 1.4em;
 	line-height: 40px;
 	position: absolute;
