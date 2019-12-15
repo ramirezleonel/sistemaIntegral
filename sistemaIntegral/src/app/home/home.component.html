@@ -9,33 +9,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<head>
 		<title>Sistema Integral</title>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="assets/js/jquery.min.js"></script>
 		 <!-- Custom Theme files -->
 		 <!---- animated-css ---->
-		<script src="assets/js/wow.min.js"></script>
-		<script>
-		 new WOW().init();
-		</script>
-		<!---- animated-css ---->
-		  <!---- start-smoth-scrolling---->
-		<script type="text/javascript" src="assets/js/move-top.js"></script>
-		<script type="text/javascript" src="assets/js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-				addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
-
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
-			});
 		
-		</script>
+		<!---- animated-css ---->
+	
 		 <!---- start-smoth-scrolling---->
    		 <!-- Custom Theme files -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -45,23 +23,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 		<!---//webfonts--->
 		<!----start-top-nav-script---->
-		<script>
-			$(function() {
-				var pull 		= $('#pull');
-					menu 		= $('nav ul');
-					menuHeight	= menu.height();
-				$(pull).on('click', function(e) {
-					e.preventDefault();
-					menu.slideToggle();
-				});
-				$(window).resize(function(){
-	        		var w = $(window).width();
-	        		if(w > 320 && menu.is(':hidden')) {
-	        			menu.removeAttr('style');
-	        		}
-	    		});
-			});
-		</script>
+	
 		<!----//End-top-nav-script---->
 	</head>
 	<body>
@@ -76,8 +38,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<!----start-top-nav---->
 						 <nav class="top-nav">
 							<ul class="top-nav">
-								<li><a href="#home" class="scroll">Inicio</a></li>
-								<li class="active"><a href="#services" class="scroll">Servicios</a></li>
+								<li class="active"><a href="#home" class="scroll">Inicio</a></li>
+								<li><a href="#services" class="scroll">Servicios</a></li>
 								<li><a href="#port" class="scroll">Galería de Fotos</a></li>
 								<li><a href="#contact" class="scroll">Contacto</a></li>
 							</ul>
@@ -228,7 +190,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									</div>
 									<div class="portfolio-top-left-grid-right">
 										<h5>Software de facturación y control de stock para almacén</h5>
-										<p>Es un sistema que que permite la gestión de productos, ventas de productos, control de stock y cartera de clientes</p>
+										<p>Es un sistema que que permite la gestión de productos, ventas de productos, control de stock y gestión de cartera de clientes</p>
 									</div>
 									<div class="clearfix"> </div>
 								</div>
@@ -386,22 +348,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<!--- copy-right ---->
 				<div class="copy-right text-center">
 					<p>Template by <a href="http://w3layouts.com/">W3layouts</a></p>
-					<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				
+								
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 				</div>
 				<!--- copy-right ---->
 			</div>
