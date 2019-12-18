@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css',
   '../../assets/css/animate.css',
   '../../assets/css/bootstrap.css',
-  '../../assets/css/style.css']
+  '../../assets/css/style.css',
+  '../../assets/css/si-style.css']
 })
 export class HomeComponent implements OnInit {
   pathImages:string ='assets/images/'
