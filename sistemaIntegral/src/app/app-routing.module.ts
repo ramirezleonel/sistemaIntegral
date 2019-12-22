@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HeaderComponent } from './header/header.component';
+import { ServiciosComponent } from './servicios/servicios.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path:'header',
     component:HeaderComponent
+  },
+  {
+    path:'servicios',
+    component:ServiciosComponent
   },
   {
     path:'**',

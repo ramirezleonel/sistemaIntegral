@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { GaleriaComponent } from './galeria/galeria.component';
+import { ServiciosComponent } from './servicios/servicios.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GaleriaComponent } from './galeria/galeria.component';
     FooterComponent,
     HeaderComponent,
     PageNotFoundComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    ServiciosComponent
   ],
   imports: [
     BrowserModule,
