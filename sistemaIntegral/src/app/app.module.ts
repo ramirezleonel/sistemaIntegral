@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { GaleriaComponent } from './galeria/galeria.component';
 import { ServiciosComponent } from './servicios/servicios.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ServiciosComponent } from './servicios/servicios.component';
     HeaderComponent,
     PageNotFoundComponent,
     GaleriaComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
