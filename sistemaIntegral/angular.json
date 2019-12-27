@@ -28,7 +28,10 @@
               "src/assets/css/animate.css",
               "src/assets/css/bootstrap.css",
               "src/assets/css/style.css",
-              "src/assets/css/si-style.css"
+              "src/assets/css/si-style.css",
+              "src/assets/css/common.css",
+              "src/assets/css/modernizr.css"
+             
             ],
             "scripts": [
               "src/assets/js/jquery.min.js",
