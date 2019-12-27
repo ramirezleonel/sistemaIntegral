@@ -10,6 +10,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { GaleriaComponent } from './galeria/galeria.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { LayoutComponent } from './layout/layout.component';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LayoutComponent } from './layout/layout.component';
     PageNotFoundComponent,
     GaleriaComponent,
     ServiciosComponent,
-    LayoutComponent
+    LayoutComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,

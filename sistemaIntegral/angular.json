@@ -35,7 +35,8 @@
               "src/assets/js/wow.min.js",
               "src/assets/js/move-top.js",
               "src/assets/js/easing.js",
-              "src/assets/js/si-script.js"]
+              "src/assets/js/si-script.js",
+              "src/assets/js/modernizr.js"]
           },
           "configurations": {
             "production": {
