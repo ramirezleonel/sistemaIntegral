@@ -26,10 +26,13 @@ body a{
 	background:url('../images/banner.jpg') no-repeat 0px 0px;
 	background-size:cover;
 }
-
+.bg-nav{
+	background:#222222;
+}
 .logo{
 	float: left;
 	margin-top: 0.6em;
+	display: none;
 }
 .logo a{
 	color: #303030;
@@ -46,6 +49,7 @@ body a{
 /*----navbar-nav----*/
 .top-header{
 	padding: 0.8em 0em;
+	 box-shadow: 2px 2px 5px #111111;
 }
 .top-nav ul li a{
 	color: #FFF;
@@ -126,6 +130,11 @@ nav a#pull {
 }
 /*Styles for screen 515px and lower*/
 @media only screen and (max-width : 768px) {
+	.logo{
+		float: left;
+		margin-top: 0.6em;
+		display: block;
+	}
 	nav {
 		border-bottom: 0;
 		float:none;
@@ -142,7 +151,7 @@ nav a#pull {
 		color: #F26D7D;
 		text-align: right;
 		position: absolute;
-		top: 23px;
+		top: 15px;
 	}
 	/* nav a#pull:after {
 		content:"";
