@@ -35,6 +35,7 @@
             ],
             "scripts": [
               "src/assets/js/jquery.min.js",
+              "src/assets/js/jquery.ripples-min.js",
               "src/assets/js/wow.min.js",
               "src/assets/js/move-top.js",
               "src/assets/js/easing.js",

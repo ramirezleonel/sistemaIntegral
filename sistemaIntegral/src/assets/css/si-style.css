@@ -17,10 +17,12 @@ width: 80px;
 .content-sitioweb{
     margin: 0;
 	padding: 0;
-	background: url('../images/sitiosweb-content.jpg') no-repeat 0px 0px;
+	background: url('../images/responsive-design1.jpg') no-repeat 0px 0px;
 	background-size: cover;
 	height: 700px;
 }
-
+.content-sitioweb{
+    
+}
 
 /*End content-sitioweb*/

@@ -13,6 +13,11 @@ $( document ).ready(function() {
             menu.removeAttr('style');
         }
     });
+    $('.content-sitioweb').ripples({
+        resolution: 512,
+        dropRadius: 10, //px
+        perturbance: 0.002,
+      });
  //End Hamburguer
   $(".scroll").on('click',function(event){		
             event.preventDefault();
