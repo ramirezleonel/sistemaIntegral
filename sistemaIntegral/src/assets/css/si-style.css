@@ -16,13 +16,17 @@ width: 80px;
 
 .content-sitioweb{
     margin: 0;
-	padding: 0;
-	background: url('../images/responsive-design1.jpg') no-repeat 0px 0px;
+    padding: 0;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/responsive5.jpg');
 	background-size: cover;
-	height: 700px;
-}
-.content-sitioweb{
+    height: 700px;
     
 }
+
 
 /*End content-sitioweb*/
