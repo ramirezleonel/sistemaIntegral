@@ -11,6 +11,7 @@ import { GaleriaComponent } from './galeria/galeria.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { LayoutComponent } from './layout/layout.component';
 import { SliderComponent } from './slider/slider.component';
+import { SitiosWebComponent } from './sitios-web/sitios-web.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SliderComponent } from './slider/slider.component';
     GaleriaComponent,
     ServiciosComponent,
     LayoutComponent,
-    SliderComponent
+    SliderComponent,
+    SitiosWebComponent
   ],
   imports: [
     BrowserModule,

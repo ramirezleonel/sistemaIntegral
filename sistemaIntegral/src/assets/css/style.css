@@ -40,6 +40,18 @@ body a{
 	text-transform: uppercase;
 	font-size: 2.5em;
 }
+a:hover{
+	text-decoration:none;
+	color: #00A2C1
+}
+a h3:hover{
+	text-decoration:none;
+	color: #00A2C1
+}
+a p:hover{
+	text-decoration:none;
+	color: #00A2C1
+}
 .logo a:hover{
 	text-decoration:none;
 }
@@ -60,10 +72,12 @@ body a{
 	text-transform: uppercase;
 	position: relative;
 	font-weight: 300;
+
 }
 .top-nav ul li.active a,
 .top-nav ul li a:hover{
-	color:#EE2F1B;
+	text-decoration:none;
+	color:#00A2C1;
 }
 .logo a{
 	display:block;

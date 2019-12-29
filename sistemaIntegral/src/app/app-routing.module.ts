@@ -5,6 +5,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { ServiciosComponent } from './servicios/servicios.component';
 import { GaleriaComponent } from './galeria/galeria.component';
 import { LayoutComponent } from './layout/layout.component';
+import { SitiosWebComponent } from './sitios-web/sitios-web.component';
 
 
 const routes: Routes = [
@@ -27,8 +28,11 @@ const routes: Routes = [
       {
         path:'servicios',
         component:ServiciosComponent
+      },
+      {
+        path:'sitios-web',
+        component:SitiosWebComponent
       }
-
     ]
   },
  
