@@ -26,13 +26,26 @@ body a{
 	background:url('../images/banner.jpg') no-repeat 0px 0px;
 	background-size:cover;
 }
+.bg-sitiosweb{
+	background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/imagen-slider/sitiosweb2.jpg');
+
+	background-size:cover;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 .bg-nav{
 	background:#222222;
 }
 .logo{
 	float: left;
 	margin-top: 0.6em;
-	display: none;
+	/* display: none; */
 }
 .logo a{
 	color: #303030;
