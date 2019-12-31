@@ -12,6 +12,7 @@ import { ServiciosComponent } from './servicios/servicios.component';
 import { LayoutComponent } from './layout/layout.component';
 import { SliderComponent } from './slider/slider.component';
 import { SitiosWebComponent } from './sitios-web/sitios-web.component';
+import { SistemaDesktopComponent } from './sistema-desktop/sistema-desktop.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SitiosWebComponent } from './sitios-web/sitios-web.component';
     ServiciosComponent,
     LayoutComponent,
     SliderComponent,
-    SitiosWebComponent
+    SitiosWebComponent,
+    SistemaDesktopComponent
   ],
   imports: [
     BrowserModule,
