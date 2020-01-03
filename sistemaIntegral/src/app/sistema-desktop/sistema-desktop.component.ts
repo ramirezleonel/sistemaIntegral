@@ -10,6 +10,8 @@ export class SistemaDesktopComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
+
 
 }

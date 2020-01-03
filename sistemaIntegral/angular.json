@@ -30,7 +30,8 @@
               "src/assets/css/style.css",
               "src/assets/css/si-style.css",
               "src/assets/css/common.css",
-              "src/assets/css/modernizr.css"
+              "src/assets/css/modernizr.css",
+              "src/assets/css/cards-products.css"
              
             ],
             "scripts": [
