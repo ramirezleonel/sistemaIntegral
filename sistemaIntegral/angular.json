@@ -31,17 +31,22 @@
               "src/assets/css/si-style.css",
               "src/assets/css/common.css",
               "src/assets/css/modernizr.css",
-              "src/assets/css/cards-products.css"
+              "src/assets/css/cards-products.css",
+              "src/assets/css/magnific-popup.css"
              
             ],
             "scripts": [
               "src/assets/js/jquery.min.js",
               "src/assets/js/jquery.ripples-min.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
               "src/assets/js/wow.min.js",
               "src/assets/js/move-top.js",
               "src/assets/js/easing.js",
               "src/assets/js/si-script.js",
-              "src/assets/js/modernizr.js"]
+              "src/assets/js/modernizr.js"
+              
+              
+            ]
           },
           "configurations": {
             "production": {
