@@ -18,7 +18,7 @@ $( document ).ready(function() {
 		}
 	});
 
-        $('.image-link').magnificPopup({type:'image'});
+        
      
    //Hamburguer
     var pull 		= $('#pull');

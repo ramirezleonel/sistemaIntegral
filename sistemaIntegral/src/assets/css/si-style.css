@@ -14,7 +14,7 @@ width: 80px;
 
 .parallax{
    
-    height: 600px;
+    height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,29 +27,12 @@ width: 80px;
     
     margin: 0;
     padding: 0;
-    background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('../images/responsive5.jpg');
+   
 	background-size: cover;
     height: 700px;
     
 }
 
-.content-sistema-desktop{
-    margin: 0;
-    padding: 0;
-    background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('../images/responsive-design1.jpg');
-	background-size: cover;
-    height: 700px;
-    
-}
+
 
 /*End content-sitioweb*/
