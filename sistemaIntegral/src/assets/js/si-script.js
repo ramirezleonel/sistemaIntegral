@@ -34,7 +34,7 @@ $( document ).ready(function() {
             menu.removeAttr('style');
         }
     });
-    $('.content-sitioweb').ripples({
+    $('.efect-ripple').ripples({
         resolution: 512,
         dropRadius: 10, //px
         perturbance: 0.002,
