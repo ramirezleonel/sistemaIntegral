@@ -7,6 +7,7 @@ import { GaleriaComponent } from './galeria/galeria.component';
 import { LayoutComponent } from './layout/layout.component';
 import { SitiosWebComponent } from './sitios-web/sitios-web.component';
 import { SistemaDesktopComponent } from './sistema-desktop/sistema-desktop.component';
+import { SoporteTecnicoComponent } from './soporte-tecnico/soporte-tecnico.component';
 
 
 const routes: Routes = [
@@ -37,6 +38,10 @@ const routes: Routes = [
       {
         path:'sistema-desktop',
         component:SistemaDesktopComponent
+      },
+      {
+        path:'soporte-tecnico',
+        component:SoporteTecnicoComponent
       }
 
     ]

@@ -21,6 +21,27 @@ width: 80px;
     background-size: cover;
   
 }
+.parallax h1{
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 700;
+	font-size: 3.5em;
+	color: #FFF;
+	text-transform: uppercase;
+	width: 70%;
+	display: inline-block;
+	line-height: 1.3em;
+  }
+
+  .parallax p{
+    color: #CCCCCC;
+	font-weight:400;
+	font-size: 1.3em;
+	line-height: 1.7em;
+	font-family: 'Open Sans', sans-serif;
+	margin: 1em auto;
+	width: 50%;
+  }
 /*content-sitioweb*/
 
 

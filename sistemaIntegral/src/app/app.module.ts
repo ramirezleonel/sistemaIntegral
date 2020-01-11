@@ -13,6 +13,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { SliderComponent } from './slider/slider.component';
 import { SitiosWebComponent } from './sitios-web/sitios-web.component';
 import { SistemaDesktopComponent } from './sistema-desktop/sistema-desktop.component';
+import { SoporteTecnicoComponent } from './soporte-tecnico/soporte-tecnico.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SistemaDesktopComponent } from './sistema-desktop/sistema-desktop.compo
     LayoutComponent,
     SliderComponent,
     SitiosWebComponent,
-    SistemaDesktopComponent
+    SistemaDesktopComponent,
+    SoporteTecnicoComponent
   ],
   imports: [
     BrowserModule,
