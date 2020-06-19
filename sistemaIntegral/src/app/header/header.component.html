@@ -1,30 +1,78 @@
-
-		<div class="bg-nav">
-		<!----- start-header---->
-			<div id="home" class="header wow pulse" data-wow-delay="0.4s">
-					<div class="top-header">
-						<div class="container-fluid">
-						<div class="logo">
-							<a href="#"><img style="width: 65px;" src="assets/images/logo grande.png" title="Sistema Integral" /></a>
-						</div>
-						<!----start-top-nav---->
-						 <nav class="top-nav">
-							<ul class="top-nav">
-								<li class="active"><a href="" >Inicio</a></li>
-								<li><a href="#services" class="scroll">Servicios</a></li>
-								<li><a href="sitios-web" >Sitios web</a></li>
-								<li><a href="sistema-desktop" >Sistema Desktop</a></li>
-								<li><a href="#contact" class="scroll">Contacto</a></li>
-							</ul>
-							<a href="#" id="pull"><img src="assets/images/menu-icon.png" title="menu" /></a>
-						</nav>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-			</div>
-			
-			<!----- //End-header---->
+<!--PreLoader-->
+<div class="loader">
+    <div class="loader-inner">
+        <div class="cssload-loader"></div>
+    </div>
+</div>
+<!--PreLoader Ends-->
+<!-- header -->
+<header class="site-header" id="header">
+    <nav class="navbar navbar-expand-lg transparent-bg static-nav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo grande.png" alt="logo" class="logo-default">
+                <img src="assets/images/logo grande.png" alt="logo" class="logo-scrolled">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown static">
+                        <li class="nav-item">
+							<a class="nav-link" href="inicio">Inicio</a>
+						</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros">Nosotros</a>
+					</li>
+					<li class="nav-item">
+                        <a class="nav-link" href="galeria">Galeria</a>
+					</li>
+					<li class="nav-item">
+                        <a class="nav-link" href="galeria">Contacto</a>
+                    </li>
+                   
+                </ul>
+            </div>
         </div>
-      
+        <!--side menu open button-->
+        <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
+            <span></span> <span></span> <span></span>
+        </a>
+    </nav>
+    <!-- side menu -->
+    <div class="side-menu opacity-0 gradient-bg">
+        <div class="overlay"></div>
+        <div class="inner-wrapper">
+            <span class="btn-close btn-close-no-padding" id="btn_sideNavClose"><i></i><i></i></span>
+            <nav class="side-nav w-100">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <li class="nav-item">
+							<a class="nav-link" href="about.html">Inicio</a>
+						</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="side-footer w-100">
+                <ul class="social-icons-simple white top40">
+                    <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+                    <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+                    <li><a href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+                </ul>
+                <p class="whitecolor">&copy; <span id="year"></span> Trax. Made With Love by ThemesIndustry</p>
+            </div>
+        </div>
+    </div>
+    <div id="close_side_menu" class="tooltip"></div>
+    <!-- End side menu -->
+</header>
+<!-- header -->
+	
 			
         
